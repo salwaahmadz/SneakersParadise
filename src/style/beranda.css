@@ -1,0 +1,48 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/bg/bg1.png");
+    background-size: cover;
+}
+
+.navFont{
+    font-size: 20px;
+}
+
+.title1{
+    font-size: 3rem;
+    font: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.title2{
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.title3{
+    font-size: 2rem;
+    font: 400;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.title4{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.beranda{
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
