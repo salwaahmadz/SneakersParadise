@@ -20,8 +20,8 @@ const Beranda = () => {
     }, [responsive])
 
     return(
-        <div className="beranda">
-            <Container className="text-white d-flex justify-content-start align-items-center" style={{marginTop: "160px"}}>
+        <div className="beranda" id="beranda">
+            <Container className="text-white d-flex justify-content-start align-items-center" style={{marginTop: "260px"}}>
 
                 {responsive === false?
                 <>

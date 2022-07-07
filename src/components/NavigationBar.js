@@ -1,4 +1,4 @@
-import {Navbar, Container, Nav, Offcanvas} from "react-bootstrap"
+import {Navbar, Container, Nav} from "react-bootstrap"
 import logo from "../assets/logo/logo.png"
 import keranjangIco from "../assets/icon/cart.png"
 import profileIco from "../assets/icon/profile.png"
@@ -40,7 +40,7 @@ const NavigationBar = () => {
                 {responsive === false?
                 <>
                 <div className="d-flex m-auto justify-content-center">
-                <Nav.Link className="navFont" style={{color: "#E53D00", fontWeight:"700"}}>Beranda</Nav.Link>
+                <Nav.Link className="navFont" style={{color: "#E53D00", fontWeight:"700"}} href="#beranda">Beranda</Nav.Link>
                 <Nav.Link className="navFont text-white">Katalog</Nav.Link>
                 <Nav.Link className="navFont text-white">Toko Offline</Nav.Link>
                 <Nav.Link className="navFont text-white">Tentang Kami</Nav.Link>

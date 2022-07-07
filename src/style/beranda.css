@@ -6,6 +6,11 @@
     background-position: top center;
 }
 
+/* .myBG2{
+    height: 100vh;
+    background: url("../assets/bg/bg2.png");
+} */
+
 .navFont{
     font-size: 20px;
 }
