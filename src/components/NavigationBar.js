@@ -1,4 +1,4 @@
-import {Navbar, Container, Nav} from "react-bootstrap"
+import {Navbar, Container, Nav, Offcanvas} from "react-bootstrap"
 import logo from "../assets/logo/logo.png"
 import keranjangIco from "../assets/icon/cart.png"
 import profileIco from "../assets/icon/profile.png"
@@ -23,7 +23,7 @@ const NavigationBar = () => {
     }, [responsive])
 
     return(
-        <Navbar collapseOnSelect expand="md">
+        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
             <Container>
             <Navbar.Brand className="ms-3" href="/">
             <img
@@ -34,7 +34,7 @@ const NavigationBar = () => {
               className="d-inline-block align-top"
             />{' '}
           </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
 
                 {responsive === false?

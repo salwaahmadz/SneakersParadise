@@ -2,6 +2,8 @@
     height: 100vh;
     background: url("../assets/bg/bg1.png");
     background-size: cover;
+    background-repeat: none;
+    background-position: top center;
 }
 
 .navFont{
@@ -41,7 +43,7 @@
 }
 
 .beranda{
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: end;
     align-content: end;
