@@ -34,7 +34,7 @@ const Beranda = () => {
                 </Row>
                 </>
             :
-            <Row>
+                <Row>
                     <Col>
                     <div className="title3">THE STYLE IS</div>
                     <div className="title4">DEFINED BY YOURS</div>

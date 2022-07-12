@@ -53,3 +53,61 @@
     justify-content: end;
     align-content: end;
 }
+
+/* BERANDA 2 CSS */
+.content{
+    height: 100vh;
+}
+
+.pageBG{
+    background: url("../assets/bg/bg2.png");
+    background-size: cover;
+    background-repeat: none;
+    background-position: top center;
+}
+
+.beranda2{
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+
+.title5{
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
+.title6{
+    color: black;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-align: end;
+}
+
+.title7{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-align: end;
+}
+
+.title8{
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-align: end;
+}
+
+.buttonBeranda2{
+    align-items: flex-end;
+}
