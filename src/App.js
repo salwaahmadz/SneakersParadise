@@ -17,7 +17,6 @@ function App() {
             <Route path="/katalog" element={<Katalog/>}/>
           </Routes>
         </div>
-      <Footer />
     </Router>
     
     // <Router>
